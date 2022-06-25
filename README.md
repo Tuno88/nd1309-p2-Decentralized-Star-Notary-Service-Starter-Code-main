@@ -1,4 +1,28 @@
-# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
+### truffle version
+
+Truffle v5.5.18 (core: 5.5.18)
+Ganache v7.2.0
+Solidity - 0.8.0 (solc-js)
+Node v16.14.2
+Web3.js v1.5.3
+
+### OpenZeppelin version:
+
+2.3.0
+
+### ERC-721 Token Name:
+
+Star Notary
+
+### ERC-721 Token Symbol:
+
+USD
+
+### Token Address on Rinkeby Network:
+
+0xEA3bc4a80D01788737610Fa8A8FE298C5f47e3a5
+
+<!-- # ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter
 **PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
 
 ### ToDo
@@ -17,7 +41,7 @@ npm -v
 ```
 
 
-2. **Truffle v5.X.X** - A development framework for Ethereum. 
+2. **Truffle v5.X.X** - A development framework for Ethereum.
 ```bash
 # Unsinstall any previous version
 npm uninstall -g truffle
@@ -48,10 +72,10 @@ npm install web3
 
 
 ### Run the application
-1. Clean the frontend 
+1. Clean the frontend
 ```bash
 cd app
-# Remove the node_modules  
+# Remove the node_modules
 # remove packages
 rm -rf node_modules
 # clean cache
@@ -102,7 +126,7 @@ node index.js
 ```
 
 ## Troubleshoot
-#### Error 1 
+#### Error 1
 ```
 'webpack-dev-server' is not recognized as an internal or external command
 ```
@@ -115,24 +139,24 @@ After a long install, everything will work just fine!
 
 #### Error 2
 ```
-ParserError: Source file requires different compiler version. 
+ParserError: Source file requires different compiler version.
 Error: Truffle is currently using solc 0.5.16, but one or more of your contracts specify "pragma solidity >=0.X.X <0.X.X".
 ```
 **Solution:** In such a case, ensure the following in `truffle-config.js`:
 ```js
-// Configure your compilers  
-compilers: {    
-  solc: {      
-    version: "0.5.16", // <- Use this        
+// Configure your compilers
+compilers: {
+  solc: {
+    version: "0.5.16", // <- Use this
     // docker: true,
     // ...
 ```
 
 ## Raise a PR or report an Issue
-1. Feel free to raise a [Pull Request](https://github.com/udacity/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/pulls) if you find a bug/scope of improvement in the current repository. 
+1. Feel free to raise a [Pull Request](https://github.com/udacity/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/pulls) if you find a bug/scope of improvement in the current repository.
 
-2. If you have suggestions or facing issues, you can log in issue. 
+2. If you have suggestions or facing issues, you can log in issue.
 
 ---
 
-Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
+Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip) -->
